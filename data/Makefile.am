@@ -6,7 +6,7 @@ AM_FCFLAGS = ${FCFLAGS}
 AM_LDFLAGS = ${LDFLAGS}
 
 all:
-	if [ ! -d "uwlinca" ]; then \
+	if [ ! -d "sjfz" ]; then \
 		./make_data_files.py; \
 	fi
 
